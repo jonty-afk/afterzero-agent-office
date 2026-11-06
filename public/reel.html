@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agent Office · Reel Mode</title>
+<link rel="stylesheet" href="office.css">
+<link rel="stylesheet" href="reel.css">
+</head>
+<body>
+<div id="fit">
+  <div id="reel">
+    <div id="office"></div>
+    <div class="scrim" id="scrim"></div>
+
+    <div class="txt" id="txt">
+      <div class="kick" id="kick"></div>
+      <div class="head" id="head"></div>
+      <div class="sub" id="sub"></div>
+    </div>
+
+    <div class="v3" id="v3">
+      <img src="thumbs/demo-feature.svg" alt="">
+      <div class="v3m">
+        <span class="tag disc">Found file</span>
+        <div class="v3t">Sample video · demo render</div>
+        <div class="v3d">Saved during the sample workflow</div>
+        <span class="tag review">Demo status</span>
+      </div>
+    </div>
+
+    <div class="sum" id="sum">
+      <div class="sum-k">48 hours · synthetic sample</div>
+      <div class="sum-r"><b id="s1"></b><span>reels posted</span></div>
+      <div class="sum-r"><b id="s2"></b><span>job applications sent</span></div>
+      <div class="sum-r"><b id="s3"></b><span>sample leads researched</span></div>
+    </div>
+
+    <div class="chip" id="chip"><span class="tag">Replay</span><span id="chipt"></span></div>
+    <div class="bar"><i id="barfill"></i></div>
+
+    <div class="safe" id="safe"><div class="st"></div><div class="sb"></div><div class="sl"></div><div class="sr"></div></div>
+  </div>
+</div>
+<div class="ctl" id="ctl">
+  <button id="pp">Play</button>
+  <input id="scrub" type="range" min="0" max="29" step="0.01" value="0">
+  <span id="tc">0.0 s</span>
+  <label><input type="checkbox" id="safeT"> safe area</label>
+</div>
+<script type="module" src="reel.js"></script>
+</body>
+</html>

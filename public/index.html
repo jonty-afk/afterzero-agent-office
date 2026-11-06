@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agent Office · Demo</title>
+<link rel="stylesheet" href="office.css">
+<link rel="stylesheet" href="app.css">
+</head>
+<body class="mode-full">
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <div class="mark"><span></span></div>
+      <div>
+        <div class="b1">Agent Office</div>
+        <div class="b2">Replay of synthetic demo records</div>
+      </div>
+    </div>
+    <div class="modes" role="tablist">
+      <button data-mode="guided">Guided workflow</button>
+      <button data-mode="full" class="on">Full history</button>
+    </div>
+    <div class="window" id="window"></div>
+    <div class="legend">
+      <span><i class="dot replay"></i>Replay</span>
+      <span><i class="dot status"></i>Status <em id="statusAt"></em></span>
+      <span><i class="dot review"></i>Needs review</span>
+    </div>
+    <div class="channels" id="channels"></div>
+  </header>
+
+  <main class="main">
+    <section class="stage-wrap">
+      <div id="stage" class="stage"></div>
+      <div class="stage-hud">
+        <div class="clock" id="clock"><div class="cd"></div><div class="ct"></div></div>
+        <div class="viewbtns full-only">
+          <button data-view="tour" class="on">Follow events</button>
+          <button data-view="all">Overview</button>
+          <button data-view="content">Content</button>
+          <button data-view="jobs">Jobs</button>
+          <button data-view="cleanic">Lead Research</button>
+        </div>
+      </div>
+      <div class="stage-hint">Click an agent or a work card to see its evidence</div>
+    </section>
+    <aside class="panel">
+      <div class="guided-only taskpick">
+        <label for="task">Task</label>
+        <select id="task"></select>
+      </div>
+      <div class="sec stepsec">
+        <div class="sec-h"><span class="tag" id="steptag">Replay</span><span class="sec-t" id="stepof"></span><span class="sec-s" id="stepsrc"></span></div>
+        <div id="stepcard" class="stepcard"></div>
+      </div>
+      <div class="sec list guided-only">
+        <div class="sec-h"><span class="sec-t">Steps in this task</span></div>
+        <ol id="steplist" class="steplist"></ol>
+      </div>
+      <div class="sec log full-only">
+        <div class="sec-h"><span class="sec-t">Event log</span><span class="sec-s" id="logcount"></span></div>
+        <ol id="log"></ol>
+      </div>
+      <div class="sec statussec full-only" id="statussec">
+        <div class="sec-h"><span class="tag status">Status</span><span class="sec-t" id="statusTitle">Current status</span></div>
+        <div id="status"></div>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="bar">
+    <div class="ctl">
+      <button id="prev" class="nav" aria-label="Previous">◀<span>Previous</span></button>
+      <button id="play" class="play" aria-label="Play">
+        <svg viewBox="0 0 24 24" class="i-play"><path d="M7 4.5v15l12.5-7.5z"/></svg>
+        <svg viewBox="0 0 24 24" class="i-pause"><path d="M6 4h4.2v16H6zM13.8 4H18v16h-4.2z"/></svg>
+      </button>
+      <button id="next" class="nav" aria-label="Next"><span>Next</span>▶</button>
+      <div class="pace">
+        <div class="pace-l" id="paceLabel">Auto-advance</div>
+        <div class="seg" id="pace"></div>
+      </div>
+      <div class="dwell"><i id="dwell"></i></div>
+    </div>
+    <div class="tl-track" id="track">
+      <div class="tl-days" id="days"></div>
+      <div class="tl-lanes" id="lanes"></div>
+      <div class="tl-head" id="head"><div class="tl-knob"></div></div>
+    </div>
+  </footer>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

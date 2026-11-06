@@ -1,0 +1,2248 @@
+{
+  "generated": "2025-02-03T12:00:00Z",
+  "tz": "UTC",
+  "window": {
+    "start": "2025-02-01T12:00:00Z",
+    "end": "2025-02-03T12:00:00Z"
+  },
+  "events": [
+    {
+      "area": "content",
+      "t": "2025-02-01T12:31:00Z",
+      "title": "Sample workflow event 01",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "run",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "script",
+      "state": "working",
+      "id": 1,
+      "detail": "Read a sample source."
+    },
+    {
+      "area": "cleanic",
+      "t": "2025-02-01T13:02:00Z",
+      "title": "Sample workflow event 02",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "email",
+      "output": "Passed a sample file onward.",
+      "source": "Synthetic sample data",
+      "agent": "agent-07",
+      "station": "outbox",
+      "state": "handoff",
+      "item": {
+        "kind": "email",
+        "label": "Sample workflow item 02"
+      },
+      "id": 2,
+      "detail": "Prepared a demo draft.",
+      "count": 2
+    },
+    {
+      "area": "cleanic",
+      "t": "2025-02-01T13:33:00Z",
+      "title": "Sample workflow event 03",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "research",
+      "output": "Rendered a sample asset.",
+      "count": 4,
+      "source": "Synthetic sample data",
+      "agent": "agent-07",
+      "station": "table",
+      "state": "complete",
+      "item": {
+        "kind": "leads",
+        "label": "Sample workflow item 02"
+      },
+      "id": 3,
+      "detail": "Passed a sample file onward."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-01T14:04:00Z",
+      "title": "Sample workflow event 04",
+      "status": "discovered",
+      "kind": "discovered",
+      "approx": false,
+      "stage": "render",
+      "output": "Saved a synthetic event.",
+      "thumb": "thumbs/demo-01.svg",
+      "source": "Synthetic sample data",
+      "agent": "agent-02",
+      "station": "rack",
+      "state": "complete",
+      "item": {
+        "kind": "video",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-01.svg"
+      },
+      "id": 4,
+      "detail": "Rendered a sample asset."
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-01T14:35:00Z",
+      "title": "Sample workflow event 05",
+      "status": "published",
+      "kind": "sample",
+      "approx": false,
+      "stage": "profile",
+      "output": "Checked a simulated response.",
+      "source": "Synthetic sample data",
+      "agent": "agent-06",
+      "station": "profile2",
+      "state": "complete",
+      "item": {
+        "kind": "repo",
+        "label": "Sample workflow item 02",
+        "text": "Passed a sample file onward."
+      },
+      "id": 5,
+      "detail": "Saved a synthetic event.",
+      "count": 1
+    },
+    {
+      "area": "content",
+      "t": "2025-02-01T15:06:00Z",
+      "title": "Sample workflow event 06",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "script",
+      "output": "Read a sample source.",
+      "ref": "demo-item-09",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "script",
+      "state": "working",
+      "item": {
+        "kind": "script",
+        "label": "Sample workflow item 02",
+        "text": "Passed a sample file onward."
+      },
+      "id": 6,
+      "detail": "Checked a simulated response."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-01T15:37:00Z",
+      "title": "Sample workflow event 07",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "render",
+      "output": "Prepared a demo draft.",
+      "thumb": "thumbs/demo-02.svg",
+      "ref": "demo-item-10",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "edit",
+      "state": "handoff",
+      "item": {
+        "kind": "video",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-02.svg"
+      },
+      "id": 7,
+      "detail": "Read a sample source."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-01T16:08:00Z",
+      "title": "Sample workflow event 08",
+      "status": "published",
+      "kind": "sample",
+      "approx": false,
+      "stage": "publish",
+      "output": "Passed a sample file onward.",
+      "thumb": "thumbs/demo-02.svg",
+      "timeLabel": null,
+      "ref": "demo-item-11",
+      "link": "",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "publish",
+      "state": "complete",
+      "item": {
+        "kind": "reel",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-02.svg",
+        "link": ""
+      },
+      "id": 8,
+      "detail": "Prepared a demo draft."
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-01T16:39:00Z",
+      "title": "Sample workflow event 09",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "replies",
+      "minor": true,
+      "output": "Rendered a sample asset.",
+      "source": "Synthetic sample data",
+      "agent": "agent-04",
+      "station": "replies",
+      "state": "complete",
+      "id": 9,
+      "detail": "Passed a sample file onward."
+    },
+    {
+      "area": "cleanic",
+      "t": "2025-02-01T17:10:00Z",
+      "title": "Sample workflow event 10",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "replies",
+      "output": "Saved a synthetic event.",
+      "source": "Synthetic sample data",
+      "agent": "agent-08",
+      "station": "cinbox",
+      "state": "complete",
+      "id": 10,
+      "detail": "Rendered a sample asset."
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-01T17:41:00Z",
+      "title": "Sample workflow event 11",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "replies",
+      "minor": true,
+      "output": "Checked a simulated response.",
+      "source": "Synthetic sample data",
+      "agent": "agent-04",
+      "station": "replies",
+      "state": "complete",
+      "id": 11,
+      "detail": "Saved a synthetic event."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-01T18:12:00Z",
+      "title": "Sample workflow event 12",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "run",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "script",
+      "state": "working",
+      "id": 12,
+      "detail": "Checked a simulated response."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-01T18:43:00Z",
+      "title": "Sample workflow event 13",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "script",
+      "output": "Prepared a demo draft.",
+      "ref": "demo-item-09",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "script",
+      "state": "working",
+      "item": {
+        "kind": "script",
+        "label": "Sample workflow item 02",
+        "text": "Passed a sample file onward."
+      },
+      "id": 13,
+      "detail": "Read a sample source."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-01T19:14:00Z",
+      "title": "Sample workflow event 14",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "render",
+      "output": "Passed a sample file onward.",
+      "thumb": "thumbs/demo-03.svg",
+      "ref": "demo-item-10",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "edit",
+      "state": "handoff",
+      "item": {
+        "kind": "video",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-03.svg"
+      },
+      "id": 14,
+      "detail": "Prepared a demo draft."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-01T19:45:00Z",
+      "title": "Sample workflow event 15",
+      "status": "published",
+      "kind": "sample",
+      "approx": true,
+      "stage": "publish",
+      "output": "Rendered a sample asset.",
+      "thumb": "thumbs/demo-03.svg",
+      "timeLabel": null,
+      "ref": "demo-item-11",
+      "link": "",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "publish",
+      "state": "complete",
+      "item": {
+        "kind": "reel",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-03.svg",
+        "link": ""
+      },
+      "id": 15,
+      "detail": "Passed a sample file onward."
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-01T20:16:00Z",
+      "title": "Sample workflow event 16",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "replies",
+      "minor": true,
+      "output": "Saved a synthetic event.",
+      "source": "Synthetic sample data",
+      "agent": "agent-04",
+      "station": "replies",
+      "state": "complete",
+      "id": 16,
+      "detail": "Rendered a sample asset."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-01T20:47:00Z",
+      "title": "Sample workflow event 17",
+      "status": "discovered",
+      "kind": "discovered",
+      "approx": false,
+      "stage": "render",
+      "output": "Checked a simulated response.",
+      "thumb": "thumbs/demo-04.svg",
+      "source": "Synthetic sample data",
+      "agent": "agent-02",
+      "station": "rack",
+      "state": "complete",
+      "item": {
+        "kind": "video",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-04.svg"
+      },
+      "id": 17,
+      "detail": "Saved a synthetic event."
+    },
+    {
+      "area": "cleanic",
+      "t": "2025-02-01T21:18:00Z",
+      "title": "Sample workflow event 18",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "replies",
+      "output": "Read a sample source.",
+      "source": "Synthetic sample data",
+      "agent": "agent-08",
+      "station": "cinbox",
+      "state": "complete",
+      "id": 18,
+      "detail": "Checked a simulated response."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-01T21:49:00Z",
+      "title": "Sample workflow event 19",
+      "status": "discovered",
+      "kind": "discovered",
+      "approx": false,
+      "stage": "render",
+      "output": "Prepared a demo draft.",
+      "thumb": "thumbs/demo-05.svg",
+      "source": "Synthetic sample data",
+      "agent": "agent-02",
+      "station": "rack",
+      "state": "complete",
+      "item": {
+        "kind": "video",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-05.svg"
+      },
+      "id": 19,
+      "detail": "Read a sample source."
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-01T22:20:00Z",
+      "title": "Sample workflow event 20",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "run",
+      "output": "Passed a sample file onward.",
+      "source": "Synthetic sample data",
+      "agent": "agent-03",
+      "station": "jobdesk",
+      "state": "working",
+      "id": 20,
+      "detail": "Prepared a demo draft.",
+      "count": 1
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-01T22:51:00Z",
+      "title": "Sample workflow event 21",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "replies",
+      "minor": true,
+      "output": "Rendered a sample asset.",
+      "source": "Synthetic sample data",
+      "agent": "agent-04",
+      "station": "replies",
+      "state": "complete",
+      "id": 21,
+      "detail": "Passed a sample file onward."
+    },
+    {
+      "area": "cleanic",
+      "t": "2025-02-01T23:22:00Z",
+      "title": "Sample workflow event 22",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "replies",
+      "output": "Saved a synthetic event.",
+      "source": "Synthetic sample data",
+      "agent": "agent-08",
+      "station": "cinbox",
+      "state": "complete",
+      "id": 22,
+      "detail": "Rendered a sample asset."
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-01T23:53:00Z",
+      "title": "Sample workflow event 23",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "draft",
+      "output": "Checked a simulated response.",
+      "source": "Synthetic sample data",
+      "agent": "agent-03",
+      "station": "drafted",
+      "state": "handoff",
+      "item": {
+        "kind": "draft",
+        "label": "Sample workflow item 02"
+      },
+      "id": 23,
+      "detail": "Saved a synthetic event."
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-02T00:24:00Z",
+      "title": "Sample workflow event 24",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "draft",
+      "output": "Read a sample source.",
+      "source": "Synthetic sample data",
+      "agent": "agent-03",
+      "station": "drafted",
+      "state": "handoff",
+      "item": {
+        "kind": "draft",
+        "label": "Sample workflow item 02"
+      },
+      "id": 24,
+      "detail": "Checked a simulated response."
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-02T00:55:00Z",
+      "title": "Sample workflow event 25",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "replies",
+      "minor": true,
+      "output": "Prepared a demo draft.",
+      "source": "Synthetic sample data",
+      "agent": "agent-04",
+      "station": "replies",
+      "state": "complete",
+      "id": 25,
+      "detail": "Read a sample source."
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-02T01:26:00Z",
+      "title": "Sample workflow event 26",
+      "status": "published",
+      "kind": "sample",
+      "approx": false,
+      "stage": "profile",
+      "output": "Passed a sample file onward.",
+      "source": "Synthetic sample data",
+      "agent": "agent-05",
+      "station": "profile1",
+      "state": "complete",
+      "item": {
+        "kind": "post",
+        "label": "Sample workflow item 02",
+        "text": "Passed a sample file onward."
+      },
+      "id": 26,
+      "detail": "Prepared a demo draft.",
+      "count": 1
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-02T01:57:00Z",
+      "title": "Sample workflow event 27",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "replies",
+      "minor": true,
+      "output": "Rendered a sample asset.",
+      "source": "Synthetic sample data",
+      "agent": "agent-04",
+      "station": "replies",
+      "state": "complete",
+      "id": 27,
+      "detail": "Passed a sample file onward."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T02:28:00Z",
+      "title": "Sample workflow event 28",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "run",
+      "output": "Saved a synthetic event.",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "script",
+      "state": "working",
+      "id": 28,
+      "detail": "Rendered a sample asset."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T02:59:00Z",
+      "title": "Sample workflow event 29",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "render",
+      "output": "Checked a simulated response.",
+      "thumb": "thumbs/demo-06.svg",
+      "ref": "demo-item-10",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "edit",
+      "state": "handoff",
+      "item": {
+        "kind": "video",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-06.svg"
+      },
+      "id": 29,
+      "detail": "Saved a synthetic event."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T03:30:00Z",
+      "title": "Sample workflow event 30",
+      "status": "published",
+      "kind": "sample",
+      "approx": false,
+      "stage": "publish",
+      "output": "Read a sample source.",
+      "thumb": "thumbs/demo-06.svg",
+      "timeLabel": null,
+      "ref": "demo-item-11",
+      "link": "",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "publish",
+      "state": "complete",
+      "item": {
+        "kind": "reel",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-06.svg",
+        "link": ""
+      },
+      "id": 30,
+      "detail": "Checked a simulated response."
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-02T04:01:00Z",
+      "title": "Sample workflow event 31",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "replies",
+      "minor": true,
+      "output": "Prepared a demo draft.",
+      "source": "Synthetic sample data",
+      "agent": "agent-04",
+      "station": "replies",
+      "state": "complete",
+      "id": 31,
+      "detail": "Read a sample source."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T04:32:00Z",
+      "title": "Sample workflow event 32",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "script",
+      "output": "Passed a sample file onward.",
+      "ref": "demo-item-09",
+      "source": "Synthetic sample data",
+      "agent": "agent-02",
+      "station": "script",
+      "state": "working",
+      "item": {
+        "kind": "script",
+        "label": "Sample workflow item 02",
+        "text": "Passed a sample file onward."
+      },
+      "id": 32,
+      "detail": "Prepared a demo draft."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T05:03:00Z",
+      "title": "Sample workflow event 33",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "render",
+      "output": "Rendered a sample asset.",
+      "thumb": "thumbs/demo-07.svg",
+      "ref": "demo-item-10",
+      "source": "Synthetic sample data",
+      "agent": "agent-02",
+      "station": "edit",
+      "state": "handoff",
+      "item": {
+        "kind": "video",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-07.svg"
+      },
+      "id": 33,
+      "detail": "Passed a sample file onward."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T05:34:00Z",
+      "title": "Sample workflow event 34",
+      "status": "published",
+      "kind": "sample",
+      "approx": false,
+      "stage": "publish",
+      "output": "Saved a synthetic event.",
+      "thumb": "thumbs/demo-07.svg",
+      "timeLabel": null,
+      "ref": "demo-item-11",
+      "link": "",
+      "note": "Read a sample source.",
+      "source": "Synthetic sample data",
+      "agent": "agent-02",
+      "station": "publish",
+      "state": "complete",
+      "item": {
+        "kind": "reel",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-07.svg",
+        "link": ""
+      },
+      "id": 34,
+      "detail": "Rendered a sample asset."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T06:05:00Z",
+      "title": "Sample workflow event 35",
+      "status": "review",
+      "kind": "discovered",
+      "approx": false,
+      "stage": "render",
+      "output": "Checked a simulated response.",
+      "thumb": "thumbs/demo-08.svg",
+      "note": "Rendered a sample asset.",
+      "source": "Synthetic sample data",
+      "agent": "agent-02",
+      "station": "rack",
+      "state": "review",
+      "item": {
+        "kind": "video",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-08.svg"
+      },
+      "id": 35,
+      "detail": "Saved a synthetic event."
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-02T06:36:00Z",
+      "title": "Sample workflow event 36",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "run",
+      "output": "Read a sample source.",
+      "source": "Synthetic sample data",
+      "agent": "agent-03",
+      "station": "submitted",
+      "state": "complete",
+      "item": {
+        "kind": "application",
+        "label": "Sample workflow item 02"
+      },
+      "id": 36,
+      "detail": "Checked a simulated response.",
+      "count": 1
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T07:07:00Z",
+      "title": "Sample workflow event 37",
+      "status": "review",
+      "kind": "discovered",
+      "approx": false,
+      "stage": "render",
+      "output": "Prepared a demo draft.",
+      "thumb": "thumbs/demo-09.svg",
+      "note": "Rendered a sample asset.",
+      "source": "Synthetic sample data",
+      "agent": "agent-02",
+      "station": "rack",
+      "state": "review",
+      "item": {
+        "kind": "video",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-09.svg"
+      },
+      "id": 37,
+      "detail": "Read a sample source."
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-02T07:38:00Z",
+      "title": "Sample workflow event 38",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "replies",
+      "minor": true,
+      "output": "Passed a sample file onward.",
+      "source": "Synthetic sample data",
+      "agent": "agent-04",
+      "station": "replies",
+      "state": "complete",
+      "id": 38,
+      "detail": "Prepared a demo draft."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T08:09:00Z",
+      "title": "Sample workflow event 39",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "run",
+      "output": "Rendered a sample asset.",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "script",
+      "state": "working",
+      "id": 39,
+      "detail": "Passed a sample file onward."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T08:40:00Z",
+      "title": "Sample workflow event 40",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "script",
+      "output": "Saved a synthetic event.",
+      "ref": "demo-item-09",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "script",
+      "state": "working",
+      "item": {
+        "kind": "script",
+        "label": "Sample workflow item 02",
+        "text": "Passed a sample file onward."
+      },
+      "id": 40,
+      "detail": "Rendered a sample asset."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T09:11:00Z",
+      "title": "Sample workflow event 41",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "render",
+      "output": "Checked a simulated response.",
+      "thumb": "thumbs/demo-10.svg",
+      "ref": "demo-item-10",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "edit",
+      "state": "handoff",
+      "item": {
+        "kind": "video",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-10.svg"
+      },
+      "id": 41,
+      "detail": "Saved a synthetic event."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T09:42:00Z",
+      "title": "Sample workflow event 42",
+      "status": "published",
+      "kind": "sample",
+      "approx": true,
+      "stage": "publish",
+      "output": "Read a sample source.",
+      "thumb": "thumbs/demo-10.svg",
+      "timeLabel": null,
+      "ref": "demo-item-11",
+      "link": "",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "publish",
+      "state": "complete",
+      "item": {
+        "kind": "reel",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-10.svg",
+        "link": ""
+      },
+      "id": 42,
+      "detail": "Checked a simulated response."
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-02T10:13:00Z",
+      "title": "Sample workflow event 43",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "replies",
+      "minor": true,
+      "output": "Prepared a demo draft.",
+      "source": "Synthetic sample data",
+      "agent": "agent-04",
+      "station": "replies",
+      "state": "complete",
+      "id": 43,
+      "detail": "Read a sample source."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T10:44:00Z",
+      "title": "Sample workflow event 44",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "run",
+      "output": "Passed a sample file onward.",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "script",
+      "state": "working",
+      "id": 44,
+      "detail": "Prepared a demo draft."
+    },
+    {
+      "area": "jobs",
+      "t": "2025-02-02T11:15:00Z",
+      "title": "Sample workflow event 45",
+      "status": "sample",
+      "kind": "sample",
+      "approx": false,
+      "stage": "replies",
+      "minor": true,
+      "output": "Rendered a sample asset.",
+      "source": "Synthetic sample data",
+      "agent": "agent-04",
+      "station": "replies",
+      "state": "complete",
+      "id": 45,
+      "detail": "Passed a sample file onward."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T11:46:00Z",
+      "title": "Sample workflow event 46",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "script",
+      "output": "Saved a synthetic event.",
+      "ref": "demo-item-09",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "script",
+      "state": "working",
+      "item": {
+        "kind": "script",
+        "label": "Sample workflow item 02",
+        "text": "Passed a sample file onward."
+      },
+      "id": 46,
+      "detail": "Rendered a sample asset."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T12:17:00Z",
+      "title": "Sample workflow event 47",
+      "status": "done",
+      "kind": "sample",
+      "approx": false,
+      "stage": "render",
+      "output": "Checked a simulated response.",
+      "thumb": "thumbs/demo-11.svg",
+      "ref": "demo-item-10",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "edit",
+      "state": "handoff",
+      "item": {
+        "kind": "video",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-11.svg"
+      },
+      "id": 47,
+      "detail": "Saved a synthetic event."
+    },
+    {
+      "area": "content",
+      "t": "2025-02-02T12:48:00Z",
+      "title": "Sample workflow event 48",
+      "status": "published",
+      "kind": "sample",
+      "approx": true,
+      "stage": "publish",
+      "output": "Read a sample source.",
+      "thumb": "thumbs/demo-11.svg",
+      "timeLabel": null,
+      "ref": "demo-item-11",
+      "link": "",
+      "source": "Synthetic sample data",
+      "agent": "agent-01",
+      "station": "publish",
+      "state": "complete",
+      "item": {
+        "kind": "reel",
+        "label": "Sample workflow item 02",
+        "thumb": "thumbs/demo-11.svg",
+        "link": ""
+      },
+      "id": 48,
+      "detail": "Checked a simulated response."
+    }
+  ],
+  "reels": [
+    {
+      "id": "demo-reel-01",
+      "t": "2025-02-01T12:31:00Z",
+      "label": "Sample reel 01",
+      "approx": false,
+      "topic": "Example topic 01",
+      "thumb": "thumbs/demo-02.svg",
+      "link": "",
+      "owner_requested": false
+    },
+    {
+      "id": "demo-reel-02",
+      "t": "2025-02-01T13:02:00Z",
+      "label": "Sample reel 02",
+      "approx": true,
+      "topic": "Example topic 02",
+      "thumb": "thumbs/demo-03.svg",
+      "link": "",
+      "owner_requested": false
+    },
+    {
+      "id": "demo-reel-03",
+      "t": "2025-02-01T13:33:00Z",
+      "label": "Sample reel 03",
+      "approx": false,
+      "topic": "Example topic 03",
+      "thumb": "thumbs/demo-06.svg",
+      "link": "",
+      "owner_requested": false
+    },
+    {
+      "id": "demo-reel-04",
+      "t": "2025-02-01T14:04:00Z",
+      "label": "Sample reel 04",
+      "approx": false,
+      "topic": "Example topic 04",
+      "thumb": "thumbs/demo-07.svg",
+      "link": "",
+      "owner_requested": false
+    }
+  ],
+  "discovered": [
+    {
+      "t": "2025-02-01T16:08:00Z",
+      "title": "Sample output 01",
+      "thumb": "thumbs/demo-01.svg",
+      "status": "discovered",
+      "note": "Synthetic sample artifact."
+    },
+    {
+      "t": "2025-02-01T16:39:00Z",
+      "title": "Sample output 02",
+      "thumb": "thumbs/demo-04.svg",
+      "status": "discovered",
+      "note": "Synthetic sample artifact."
+    },
+    {
+      "t": "2025-02-01T17:10:00Z",
+      "title": "Sample output 03",
+      "thumb": "thumbs/demo-05.svg",
+      "status": "discovered",
+      "note": "Synthetic sample artifact."
+    }
+  ],
+  "jobs": {
+    "found": 6,
+    "screened_out": 2,
+    "submitted": 4,
+    "waiting": 1,
+    "interview_alerts": 0,
+    "inbox_checks": 3,
+    "excluded_tests": 0,
+    "excluded_duplicates": 0,
+    "basis": "Synthetic sample data"
+  },
+  "cleanic": {
+    "researched": 4,
+    "emailed": 2,
+    "hot": 1,
+    "replies": 0,
+    "cards": [
+      {
+        "kind": "Sample lead",
+        "area": "Demo region",
+        "scale": "Small sample",
+        "outcome": "emailed"
+      },
+      {
+        "kind": "Sample lead",
+        "area": "Demo region",
+        "scale": "Small sample",
+        "outcome": "emailed"
+      },
+      {
+        "kind": "Sample lead",
+        "area": "Demo region",
+        "scale": "Small sample",
+        "outcome": "sampled"
+      },
+      {
+        "kind": "Sample lead",
+        "area": "Demo region",
+        "scale": "Small sample",
+        "outcome": "sampled"
+      }
+    ]
+  },
+  "status": {
+    "read_at": "2025-02-03T12:00:00Z",
+    "agents": [
+      {
+        "area": "content",
+        "name": "Content Agent",
+        "state": "scheduled",
+        "detail": "Rendered a sample asset.",
+        "next": "2025-02-03T15:00:00Z"
+      },
+      {
+        "area": "jobs",
+        "name": "Production Agent",
+        "state": "scheduled",
+        "detail": "Rendered a sample asset.",
+        "next": "2025-02-03T15:00:00Z"
+      },
+      {
+        "area": "jobs",
+        "name": "Job Agent",
+        "state": "scheduled",
+        "detail": "Rendered a sample asset.",
+        "next": "2025-02-03T15:00:00Z"
+      },
+      {
+        "area": "cleanic",
+        "name": "Research Agent",
+        "state": "waiting",
+        "detail": "Rendered a sample asset.",
+        "next": null
+      }
+    ],
+    "review": [
+      {
+        "area": "content",
+        "text": "Prepared a demo draft."
+      },
+      {
+        "area": "content",
+        "text": "Prepared a demo draft."
+      },
+      {
+        "area": "content",
+        "text": "Prepared a demo draft."
+      }
+    ]
+  },
+  "channels": [
+    {
+      "name": "Instagram",
+      "handle": "@sample_channel",
+      "state": "verified",
+      "detail": "Demo connection status",
+      "basis": "Synthetic sample data"
+    },
+    {
+      "name": "YouTube",
+      "handle": "@sample_channel",
+      "state": "unverified",
+      "detail": "Demo connection status",
+      "basis": "Synthetic sample data"
+    },
+    {
+      "name": "TikTok",
+      "handle": "@sample_channel",
+      "state": "none",
+      "detail": "Demo connection status",
+      "basis": "Synthetic sample data"
+    }
+  ],
+  "summary": {
+    "reels": 4,
+    "scripts": 3,
+    "submitted": 4,
+    "researched": 4,
+    "emailed": 2,
+    "video3": false
+  },
+  "agents": [
+    {
+      "id": "agent-01",
+      "name": "Content Agent",
+      "role": "Demo workflow agent",
+      "area": "content",
+      "home": "script",
+      "source": "Synthetic sample data"
+    },
+    {
+      "id": "agent-02",
+      "name": "Production Agent",
+      "role": "Demo workflow agent",
+      "area": "content",
+      "home": "rack",
+      "source": "Synthetic sample data"
+    },
+    {
+      "id": "agent-03",
+      "name": "Publishing Agent",
+      "role": "Demo workflow agent",
+      "area": "jobs",
+      "home": "jobdesk",
+      "source": "Synthetic sample data"
+    },
+    {
+      "id": "agent-04",
+      "name": "Review Agent",
+      "role": "Demo workflow agent",
+      "area": "jobs",
+      "home": "replies",
+      "source": "Synthetic sample data"
+    },
+    {
+      "id": "agent-05",
+      "name": "Job Agent",
+      "role": "Demo workflow agent",
+      "area": "jobs",
+      "home": "profile1",
+      "source": "Synthetic sample data"
+    },
+    {
+      "id": "agent-06",
+      "name": "Inbox Agent",
+      "role": "Demo workflow agent",
+      "area": "jobs",
+      "home": "profile2",
+      "source": "Synthetic sample data"
+    },
+    {
+      "id": "agent-07",
+      "name": "Research Agent",
+      "role": "Demo workflow agent",
+      "area": "cleanic",
+      "home": "table",
+      "source": "Synthetic sample data"
+    },
+    {
+      "id": "agent-08",
+      "name": "Reply Agent",
+      "role": "Demo workflow agent",
+      "area": "cleanic",
+      "home": "cinbox",
+      "source": "Synthetic sample data"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "demo-task-01",
+      "area": "content",
+      "group": "Demo workflows",
+      "title": "Sample workflow 01",
+      "short": "Read a sample source.",
+      "thumb": "thumbs/demo-02.svg",
+      "agent": "agent-01",
+      "steps": [
+        {
+          "t": "2025-02-01T12:31:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "script",
+          "state": "working",
+          "title": "Demo step 01",
+          "detail": "Read a sample source.",
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-01T13:02:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "script",
+          "state": "handoff",
+          "title": "Demo step 02",
+          "detail": "Prepared a demo draft.",
+          "item": {
+            "kind": "script",
+            "label": "Sample artifact 02",
+            "text": "Prepared a demo draft."
+          },
+          "handoff": {
+            "frm": "agent-01",
+            "to": "agent-01",
+            "what": "Sample file",
+            "basis": "Synthetic handoff."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-01T13:33:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "edit",
+          "state": "handoff",
+          "title": "Demo step 03",
+          "detail": "Passed a sample file onward.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 03",
+            "thumb": "thumbs/demo-02.svg",
+            "text": "Passed a sample file onward."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": null,
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "edit",
+          "state": "working",
+          "title": "Demo step 04",
+          "detail": "Rendered a sample asset.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 04",
+            "thumb": "thumbs/demo-02.svg",
+            "text": "Rendered a sample asset."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-01T14:35:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "publish",
+          "state": "complete",
+          "title": "Demo step 05",
+          "detail": "Saved a synthetic event.",
+          "note": "Prepared a demo draft.",
+          "item": {
+            "kind": "reel",
+            "label": "Sample artifact 05",
+            "thumb": "thumbs/demo-02.svg",
+            "link": "",
+            "text": "Saved a synthetic event."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-task-02",
+      "area": "content",
+      "group": "Demo workflows",
+      "title": "Sample workflow 02",
+      "short": "Prepared a demo draft.",
+      "thumb": "thumbs/demo-03.svg",
+      "agent": "agent-01",
+      "steps": [
+        {
+          "t": "2025-02-01T15:06:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "script",
+          "state": "working",
+          "title": "Demo step 01",
+          "detail": "Prepared a demo draft.",
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-01T15:37:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "script",
+          "state": "handoff",
+          "title": "Demo step 02",
+          "detail": "Passed a sample file onward.",
+          "item": {
+            "kind": "script",
+            "label": "Sample artifact 02",
+            "text": "Passed a sample file onward."
+          },
+          "handoff": {
+            "frm": "agent-01",
+            "to": "agent-01",
+            "what": "Sample file",
+            "basis": "Synthetic handoff."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-01T16:08:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "edit",
+          "state": "handoff",
+          "title": "Demo step 03",
+          "detail": "Rendered a sample asset.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 03",
+            "thumb": "thumbs/demo-03.svg",
+            "text": "Rendered a sample asset."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": null,
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "edit",
+          "state": "working",
+          "title": "Demo step 04",
+          "detail": "Saved a synthetic event.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 04",
+            "thumb": "thumbs/demo-03.svg",
+            "text": "Saved a synthetic event."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-01T17:10:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "publish",
+          "state": "complete",
+          "title": "Demo step 05",
+          "detail": "Checked a simulated response.",
+          "note": null,
+          "item": {
+            "kind": "reel",
+            "label": "Sample artifact 05",
+            "thumb": "thumbs/demo-03.svg",
+            "link": "",
+            "text": "Checked a simulated response."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-task-03",
+      "area": "content",
+      "group": "Demo workflows",
+      "title": "Sample workflow 03",
+      "short": "Passed a sample file onward.",
+      "thumb": "thumbs/demo-06.svg",
+      "agent": "agent-01",
+      "steps": [
+        {
+          "t": "2025-02-01T17:41:00Z",
+          "timeLabel": null,
+          "agent": "agent-02",
+          "station": "rack",
+          "state": "handoff",
+          "title": "Demo step 01",
+          "detail": "Passed a sample file onward.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 01",
+            "thumb": "thumbs/demo-06.svg",
+            "text": "Passed a sample file onward."
+          },
+          "handoff": {
+            "frm": "agent-02",
+            "to": "agent-01",
+            "what": "Sample file",
+            "basis": "Synthetic handoff."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-01T18:12:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "script",
+          "state": "working",
+          "title": "Demo step 02",
+          "detail": "Rendered a sample asset.",
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-01T18:43:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "edit",
+          "state": "working",
+          "title": "Demo step 03",
+          "detail": "Saved a synthetic event.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 03",
+            "thumb": "thumbs/demo-06.svg",
+            "text": "Saved a synthetic event."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": null,
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "edit",
+          "state": "working",
+          "title": "Demo step 04",
+          "detail": "Checked a simulated response.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 04",
+            "thumb": "thumbs/demo-06.svg",
+            "text": "Checked a simulated response."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-01T19:45:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "publish",
+          "state": "complete",
+          "title": "Demo step 05",
+          "detail": "Read a sample source.",
+          "note": null,
+          "item": {
+            "kind": "reel",
+            "label": "Sample artifact 05",
+            "thumb": "thumbs/demo-06.svg",
+            "link": "",
+            "text": "Read a sample source."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-task-04",
+      "area": "content",
+      "group": "Demo workflows",
+      "title": "Sample workflow 04",
+      "short": "Rendered a sample asset.",
+      "thumb": "thumbs/demo-07.svg",
+      "agent": "agent-02",
+      "steps": [
+        {
+          "t": null,
+          "timeLabel": null,
+          "agent": "agent-02",
+          "station": "script",
+          "state": "working",
+          "title": "Demo step 01",
+          "detail": "Rendered a sample asset.",
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-01T20:47:00Z",
+          "timeLabel": null,
+          "agent": "agent-02",
+          "station": "script",
+          "state": "handoff",
+          "title": "Demo step 02",
+          "detail": "Saved a synthetic event.",
+          "item": {
+            "kind": "script",
+            "label": "Sample artifact 02",
+            "text": "Saved a synthetic event."
+          },
+          "handoff": {
+            "frm": "agent-02",
+            "to": "agent-02",
+            "what": "Sample file",
+            "basis": "Synthetic handoff."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-01T21:18:00Z",
+          "timeLabel": null,
+          "agent": "agent-02",
+          "station": "edit",
+          "state": "handoff",
+          "title": "Demo step 03",
+          "detail": "Checked a simulated response.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 03",
+            "thumb": "thumbs/demo-07.svg",
+            "text": "Checked a simulated response."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": null,
+          "timeLabel": null,
+          "agent": "agent-02",
+          "station": "edit",
+          "state": "working",
+          "title": "Demo step 04",
+          "detail": "Read a sample source.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 04",
+            "thumb": "thumbs/demo-07.svg",
+            "text": "Read a sample source."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-01T22:20:00Z",
+          "timeLabel": null,
+          "agent": "agent-02",
+          "station": "publish",
+          "state": "complete",
+          "title": "Demo step 05",
+          "detail": "Prepared a demo draft.",
+          "note": null,
+          "item": {
+            "kind": "reel",
+            "label": "Sample artifact 05",
+            "thumb": "thumbs/demo-07.svg",
+            "link": "",
+            "text": "Prepared a demo draft."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-task-05",
+      "area": "content",
+      "group": "Demo workflows",
+      "title": "Sample workflow 05",
+      "short": "Saved a synthetic event.",
+      "thumb": "thumbs/demo-10.svg",
+      "agent": "agent-01",
+      "steps": [
+        {
+          "t": "2025-02-01T22:51:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "script",
+          "state": "working",
+          "title": "Demo step 01",
+          "detail": "Saved a synthetic event.",
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-01T23:22:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "script",
+          "state": "handoff",
+          "title": "Demo step 02",
+          "detail": "Checked a simulated response.",
+          "item": {
+            "kind": "script",
+            "label": "Sample artifact 02",
+            "text": "Checked a simulated response."
+          },
+          "handoff": {
+            "frm": "agent-01",
+            "to": "agent-01",
+            "what": "Sample file",
+            "basis": "Synthetic handoff."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-01T23:53:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "edit",
+          "state": "handoff",
+          "title": "Demo step 03",
+          "detail": "Read a sample source.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 03",
+            "thumb": "thumbs/demo-10.svg",
+            "text": "Read a sample source."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": null,
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "edit",
+          "state": "working",
+          "title": "Demo step 04",
+          "detail": "Prepared a demo draft.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 04",
+            "thumb": "thumbs/demo-10.svg",
+            "text": "Prepared a demo draft."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-02T00:55:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "publish",
+          "state": "complete",
+          "title": "Demo step 05",
+          "detail": "Passed a sample file onward.",
+          "note": null,
+          "item": {
+            "kind": "reel",
+            "label": "Sample artifact 05",
+            "thumb": "thumbs/demo-10.svg",
+            "link": "",
+            "text": "Passed a sample file onward."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-task-06",
+      "area": "content",
+      "group": "Demo workflows",
+      "title": "Sample workflow 06",
+      "short": "Checked a simulated response.",
+      "thumb": "thumbs/demo-11.svg",
+      "agent": "agent-01",
+      "steps": [
+        {
+          "t": "2025-02-02T01:26:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "script",
+          "state": "working",
+          "title": "Demo step 01",
+          "detail": "Checked a simulated response.",
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-02T01:57:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "script",
+          "state": "handoff",
+          "title": "Demo step 02",
+          "detail": "Read a sample source.",
+          "item": {
+            "kind": "script",
+            "label": "Sample artifact 02",
+            "text": "Read a sample source."
+          },
+          "handoff": {
+            "frm": "agent-01",
+            "to": "agent-01",
+            "what": "Sample file",
+            "basis": "Synthetic handoff."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-02T02:28:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "edit",
+          "state": "handoff",
+          "title": "Demo step 03",
+          "detail": "Prepared a demo draft.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 03",
+            "thumb": "thumbs/demo-11.svg",
+            "text": "Prepared a demo draft."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": null,
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "edit",
+          "state": "working",
+          "title": "Demo step 04",
+          "detail": "Passed a sample file onward.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 04",
+            "thumb": "thumbs/demo-11.svg",
+            "text": "Passed a sample file onward."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-02T03:30:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "publish",
+          "state": "complete",
+          "title": "Demo step 05",
+          "detail": "Rendered a sample asset.",
+          "note": null,
+          "item": {
+            "kind": "reel",
+            "label": "Sample artifact 05",
+            "thumb": "thumbs/demo-11.svg",
+            "link": "",
+            "text": "Rendered a sample asset."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-task-07",
+      "area": "content",
+      "group": "Demo workflows",
+      "title": "Sample workflow 07",
+      "short": "Read a sample source.",
+      "thumb": "thumbs/demo-12.svg",
+      "agent": "agent-01",
+      "steps": [
+        {
+          "t": "2025-02-02T04:01:00Z",
+          "timeLabel": null,
+          "agent": null,
+          "station": "script",
+          "state": "handoff",
+          "title": "Demo step 01",
+          "detail": "Read a sample source.",
+          "item": {
+            "kind": "clip",
+            "label": "Sample artifact 01",
+            "thumb": "thumbs/demo-12.svg",
+            "text": "Read a sample source."
+          },
+          "handoff": {
+            "frm": "agent-01",
+            "to": "agent-01",
+            "what": "Sample file",
+            "basis": "Synthetic handoff."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-02T04:32:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "script",
+          "state": "working",
+          "title": "Demo step 02",
+          "detail": "Prepared a demo draft.",
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-02T05:03:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "edit",
+          "state": "handoff",
+          "title": "Demo step 03",
+          "detail": "Passed a sample file onward.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 03",
+            "thumb": "thumbs/demo-12.svg",
+            "text": "Passed a sample file onward."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": null,
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "edit",
+          "state": "working",
+          "title": "Demo step 04",
+          "detail": "Rendered a sample asset.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 04",
+            "thumb": "thumbs/demo-12.svg",
+            "text": "Rendered a sample asset."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        },
+        {
+          "t": "2025-02-02T06:05:00Z",
+          "timeLabel": null,
+          "agent": "agent-01",
+          "station": "publish",
+          "state": "complete",
+          "title": "Demo step 05",
+          "detail": "Saved a synthetic event.",
+          "note": null,
+          "item": {
+            "kind": "reel",
+            "label": "Sample artifact 05",
+            "thumb": "thumbs/demo-12.svg",
+            "link": "",
+            "text": "Saved a synthetic event."
+          },
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-task-08",
+      "area": "content",
+      "group": "Demo workflows",
+      "title": "Sample workflow 08",
+      "short": "Prepared a demo draft.",
+      "thumb": "thumbs/demo-09.svg",
+      "agent": "agent-02",
+      "steps": [
+        {
+          "t": "2025-02-02T06:36:00Z",
+          "timeLabel": null,
+          "agent": "agent-02",
+          "station": "rack",
+          "state": "review",
+          "title": "Demo step 01",
+          "detail": "Prepared a demo draft.",
+          "item": {
+            "kind": "video",
+            "label": "Sample artifact 01",
+            "thumb": "thumbs/demo-09.svg",
+            "wide": true,
+            "text": "Prepared a demo draft."
+          },
+          "note": "Passed a sample file onward.",
+          "evidence": [
+            [
+              "Example source",
+              "Synthetic example record."
+            ],
+            [
+              "Example source",
+              "Synthetic example record."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
